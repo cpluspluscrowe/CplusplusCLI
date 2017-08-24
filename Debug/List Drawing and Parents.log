@@ -1,0 +1,17 @@
+﻿Build started 2/20/2017 3:47:26 PM.
+     1>Project "C:\Users\CCrowe\documents\visual studio 2013\Projects\List Drawing and Parents\List Drawing and Parents\List Drawing and Parents.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.Services.dll" /analyze- /errorReport:prompt /clr:nostdlib Facility.cpp JcmsDrawing.cpp main.cpp SqlGetter.cpp
+         Facility.cpp
+     1>Facility.cpp(8): error C3624: 'System::ComponentModel::Component': use of this type requires a reference to assembly 'System'
+                 This diagnostic occurred while importing type 'System::Data::Common::DbConnection ' from assembly 'System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+                 This diagnostic occurred while importing type 'System::Data::SqlClient::SqlConnection ' from assembly 'System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+         JcmsDrawing.cpp
+         main.cpp
+         SqlGetter.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\CCrowe\documents\visual studio 2013\Projects\List Drawing and Parents\List Drawing and Parents\List Drawing and Parents.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.50
